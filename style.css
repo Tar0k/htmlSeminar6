@@ -63,6 +63,12 @@
     flex-basis: 0;
 }
 
+.top_section__left_side img {
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
 .top_section__right_side {
     display: flex;
     align-items: center;
