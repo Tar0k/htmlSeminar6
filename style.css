@@ -66,6 +66,8 @@
 .top_section__right_side {
     display: flex;
     align-items: center;
+    margin-left: 39px;
+    margin-right: 39px;
     gap: 16px;
     color: #222;
     font-style: normal;
@@ -244,12 +246,17 @@
     }
 
     .center_page {
-        margin-left: calc(50% - 280px);
-        margin-right: calc(50% - 280px);
+        margin-left: calc(50% - 340px);
+        margin-right: calc(50% - 340px);
     }
 
     .top_section__left_side {
         display: none;
+    }
+
+    .top_section__right_side {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .tiles {
